@@ -1,0 +1,96 @@
+#header img {
+	height: 110px;
+}
+
+
+/*標題文字*/
+
+#title {
+	padding-top: 8px;
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
+#title h1 {
+	font-size: 40px;
+	font-weight: lighter;
+	color: white;
+	opacity: 0.8;
+}
+
+#title h3 {
+	font-size: 16px;
+	font-weight: lighter;
+	color: white;
+	opacity: 0.8;
+}
+
+/*選單*/
+
+#mainmenu {
+	font-size: 18px;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: -20px;
+	text-align: center;
+}
+
+#mainmenu li {
+	display: inline-block;
+	width: ;
+	margin: 0 1%;
+}
+
+#mainmenu li a {
+	display: inline-block;
+	padding: 0.5em 2.5em;	
+	letter-spacing: 2px;
+	text-decoration: none;
+	outline: 0;
+	color: #FFF;
+	border-radius: 20px;
+	background-color: #00A29A;
+}
+
+
+#mainmenu img {
+	margin: 50px 0px;
+	width: 100px;
+	margin-top: 10px;
+}
+
+#mainmenu #horizonp {
+	border-top: 2.5px white solid;
+	margin-top: -30px;
+}
+
+/*main menu hover*/
+
+#mainmenu li a:hover  {
+	background-color: #41B9AC;
+	transition: .7s;
+}
+
+
+#mainmenu li a:hover #horizonp {
+	border-top: 2.5px #5F1885 solid;
+	transition: .5s;
+}
+
+/*main menu active*/
+
+#mainmenu li a:active {
+	background-color: #08726A;
+	transition: 0s;
+}
+
+#mainmenu li a:active #horizonp {
+	border-top: 2.5px white solid;
+	transition: 0s;
+}
+
+#mainmenu h3 {
+	margin-top: -5px;
+	font-size: 16px;
+	font-weight: lighter;
+}

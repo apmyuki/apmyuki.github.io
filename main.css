@@ -1,0 +1,62 @@
+body {
+	text-align: center;
+	font-family: "Century Gothic";
+	margin: 0px;
+}
+
+/*橫幅內容*/
+
+#banner {
+	height: 453px;
+	width: 100%;
+}
+
+#header {
+		padding: 96px 0 96px 0;
+		/*background: url("images/banner.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;*/
+		text-align: center;
+		position: relative;
+		/*cursor: default;*/
+		margin-bottom: -20px;
+		margin-top: -410px;
+}
+
+/*水平線：horizonp（紫）horizont（蒂芬尼綠）*/
+
+#horizonp {
+	border-top: 4px #5F1885 solid;
+}
+
+#horizont {
+	border-top: 4px #00A29A solid;
+}
+
+/*社群網站按鈕*/
+
+#socialmedia {
+	padding: 10px;
+	position: fixed;
+	z-index: 1;
+	width: 98.5%;
+}
+
+#socialmedia a i {
+	margin-right: 5px;
+	margin-bottom: 10px;
+	float: right;
+	clear: right;
+	opacity: 0.7;
+}
+
+#socialmedia a {
+	color: white;
+}
+
+#socialmedia a:hover {
+	color: #00A29A;
+	transition: .5s;
+}
+
