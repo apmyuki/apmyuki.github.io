@@ -6,11 +6,12 @@ body {
 
 /*橫幅內容*/
 
-#banner {
-	height: 453px;
-	width: 100%;
+.jumbotron {
+  color: white;
+  background-color: #004466;
+  background-image: url(images/banner.png);
+  margin-bottom: 4px;
 }
-
 #header {
 		padding: 96px 0 96px 0;
 		/*background: url("images/banner.jpg");
@@ -24,39 +25,38 @@ body {
 		margin-top: -410px;
 }
 
-/*水平線：horizonp（紫）horizont（蒂芬尼綠）*/
+/*水平線：horizonn（海軍藍）horizont（蒂芬尼綠）*/
 
-#horizonp {
-	border-top: 4px #5F1885 solid;
+.horizont {
+  border-top: 4px #33cccc solid;
+}
+.horizonn {
+  border-top: 4px #004466 solid;
 }
 
-#horizont {
-	border-top: 4px #00A29A solid;
-}
 
 /*社群網站按鈕*/
 
-#socialmedia {
+.socialmedia {
 	padding: 10px;
-	position: fixed;
+	position: absolute;
 	z-index: 1;
-	width: 98.5%;
+	width: 100%;
+	margin-top: -45px;
 }
-
-#socialmedia a i {
+.socialmedia a i {
 	margin-right: 5px;
 	margin-bottom: 10px;
 	float: right;
 	clear: right;
-	opacity: 0.7;
+	opacity: 0.5;
 }
-
-#socialmedia a {
+.socialmedia a {
 	color: white;
+	opacity: 0.5;
 }
-
-#socialmedia a:hover {
-	color: #00A29A;
-	transition: .5s;
+.socialmedia a:hover {
+	color: #99ffdd;
+	opacity: 1;
+	transition: color.5s, opacity.5s;
 }
-

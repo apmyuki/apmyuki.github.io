@@ -1,86 +1,112 @@
-<html>
-	<head>
-		<title>APMyuki</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="main.css" />
-		<link rel="stylesheet" href="home.css" />
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-	</head>
-	<body>
-		<div id="socialmedia">
-			<a href="https://www.facebook.com/apmyuki/" target="_blank">
-				<i class="fa fa-facebook-square" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.facebook.com/apmyuki/" target="_blank">
-				<i class="fa fa-pinterest-square" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.facebook.com/apmyuki/" target="_blank">
-				<i class="fa fa-twitter-square" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.facebook.com/apmyuki/" target="_blank">
-				<i class="fa fa-instagram" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.facebook.com/apmyuki/" target="_blank">
-				<i class="fa fa-envelope-square" aria-hidden="true"></i>
-			</a>
-		</div>
-		<div>
-			<img id="banner" src="images/banner.jpg">
-			<div id="header">
-				<div>
-					<img src="images/logo.png">
-				</div>
-				<div id="title">
-					<h1>APM design</h1>
-					<h3>personal website/ portfolio</h3>
-				</div>
-			</div>
-		</div>
-		<div id="horizonp"></div>
-		<div id="horizont"></div>
-		<div id="mainmenu">
-			<ul>
-				<li>
-					<a href="about.html">
-						<img src="icons/about.png"><br>
-						<div id="horizonp"></div><br>
-						<h3>about</h3>
-					</a>
-				</li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>APMyuki</title>
 
-				<li>
-					<a href="#">
-						<img src="icons/uidesign.png"><br>
-						<div id="horizonp"></div><br>
-						<h3>UI design</h3>
-					</a>
-				</li>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-				<li>
-					<a href="#">
-						<img src="icons/cisdesign.png"><br>
-						<div id="horizonp"></div><br>
-						<h3>CIS design</h3>
-					</a>
-				</li>
+  </head>
 
-				<li>
-					<a href="#">
-						<img src="icons/graphicdesign.png"><br>
-						<div id="horizonp"></div><br>
-						<h3>graphic design</h3>
-					</a>
-				</li>
+  <body>
 
-				<li>
-					<a href="#">
-						<img src="icons/paintingworks.png"><br>
-						<div id="horizonp"></div><br>
-						<h3>painting works</h3>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</body>
+    <!-- banner -->
+    <div class="jumbotron">
+      <div class="socialmedia">
+        <a href="https://www.facebook.com/apmyuki/" target="_blank">
+          <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/apmyuki/" target="_blank">
+          <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/apmyuki/" target="_blank">
+         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/apmyuki/" target="_blank">
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/apmyuki/" target="_blank">
+          <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <img src="images/logo.png">
+      <h2>APM design</h2>
+      <h4>personal website/ portfolio</h4>
+    </div>
+
+    <!-- horizontal line -->
+    <div class="container, horizont"></div>
+    <div class="container, horizonn"></div>
+
+    <div class="container">
+      <ul class="pagination">
+        <li>
+            <a href="about.html">
+              <div>
+                <img src="icons/about.png"><br>
+                <p>about</p>
+              </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              <div>
+                <img src="icons/uidesign.png"><br>
+                <p>UI design</p>
+              </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              <div>
+                <img src="icons/cisdesign.png"><br>
+                <p>CIS design</p>
+              </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              <div>
+                <img src="icons/graphicdesign.png"><br>
+                <p>graphic design</p>
+              </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              <div>
+                <img src="icons/paintingworks.png"><br>
+                <p>painting works</p>
+              </div>
+            </a>
+        </li>
+      </ul>
+      <p class="bottom">APM, 2016. Personal website/ portfolio.</p>
+    </div>
+ <!--   <div class="page-header">
+        <h1>Sticky footer</h1>
+      </div>
+      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p> 
+-->
+
+ <!--   <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer> 
+-->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>

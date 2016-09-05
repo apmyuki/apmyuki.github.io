@@ -1,96 +1,105 @@
-#header img {
-	height: 110px;
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
 }
 
 
-/*標題文字*/
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
 
-#title {
-	padding-top: 8px;
-	margin-top: -8px;
-	margin-bottom: -8px;
+.container {
+  width: auto;
+  max-width: 100%;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.jumbotron img {
+  height: 120px;
+  opacity: 0.8;
+  margin-top: 80px;
+}
+.jumbotron h2 {
+  font-size: 34pt;
+  font-weight: lighter;
+  margin: 30px auto;
+  opacity: 0.8;
+}
+.jumbotron h4 {
+  font-size: 15pt;
+  font-weight: lighter;
+  color: #33cccc;
+}
+.pagination li a{
+  border: 0px;
+  color: #004466;
+}
+.pagination a div {
+  background-color: #33cccc;
+  width: 200px;
+  height: 40%;
+  border-radius: 10px;
+}
+.pagination li a:hover {
+  background-color: transparent;
+}
+.pagination a:hover > div {
+  background-color: #99e6e6;
+  color: #33cccc;
+  width: 200px;
+  height: 40%;
+  border-radius: 10px;
+  transition: .5s;
+}
+.pagination a:active > div {
+  background-color: #009999;
+  color: #33cccc;
+  width: 200px;
+  height: 40%;
+  border-radius: 10px;
+}
+.pagination img {
+  height: 100px;
+  margin: 50px auto;
+  opacity: 0.7;
+}
+.pagination p {
+  font-size: 14pt;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.pagination a:hover > p {
+  background-color: #99e6e6;
+  color: #33cccc;
+  width: 200px;
+  height: 40%;
+  border-radius: 10px;
+  transition: .5s;
+  color: #004466;
+  font-size: 16pt;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.bottom {
+  font-size: 8pt;
+  margin-top: -10px;
+  font-weight: lighter;
 }
 
-#title h1 {
-	font-size: 40px;
-	font-weight: lighter;
-	color: white;
-	opacity: 0.8;
-}
-
-#title h3 {
-	font-size: 16px;
-	font-weight: lighter;
-	color: white;
-	opacity: 0.8;
-}
-
-/*選單*/
-
-#mainmenu {
-	font-size: 18px;
-	width: 100%;
-	margin-top: 30px;
-	margin-left: -20px;
-	text-align: center;
-}
-
-#mainmenu li {
-	display: inline-block;
-	width: ;
-	margin: 0 1%;
-}
-
-#mainmenu li a {
-	display: inline-block;
-	padding: 0.5em 2.5em;	
-	letter-spacing: 2px;
-	text-decoration: none;
-	outline: 0;
-	color: #FFF;
-	border-radius: 20px;
-	background-color: #00A29A;
-}
-
-
-#mainmenu img {
-	margin: 50px 0px;
-	width: 100px;
-	margin-top: 10px;
-}
-
-#mainmenu #horizonp {
-	border-top: 2.5px white solid;
-	margin-top: -30px;
-}
-
-/*main menu hover*/
-
-#mainmenu li a:hover  {
-	background-color: #41B9AC;
-	transition: .7s;
-}
-
-
-#mainmenu li a:hover #horizonp {
-	border-top: 2.5px #5F1885 solid;
-	transition: .5s;
-}
-
-/*main menu active*/
-
-#mainmenu li a:active {
-	background-color: #08726A;
-	transition: 0s;
-}
-
-#mainmenu li a:active #horizonp {
-	border-top: 2.5px white solid;
-	transition: 0s;
-}
-
-#mainmenu h3 {
-	margin-top: -5px;
-	font-size: 16px;
-	font-weight: lighter;
-}
