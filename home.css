@@ -114,11 +114,6 @@ body {
   color: #004466;
   text-decoration: none;
 }
-.row a:visited > div{
-  background-color: #33cccc; 
-  color: white;
-  text-decoration: none;
-}
 .bottom {
   font-size: 8pt;
   margin-top: 15px;
