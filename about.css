@@ -68,25 +68,3 @@ blockquote {
 blockquote p {
 	margin: 10px 0px 10px 0px; 
 }
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 45px;
-  background-color: #33cccc;
-  opacity: 0.6;
-  padding-top: 10px;
-}
-.footer a {
-	color: #004466;
-	opacity: 1;
-}
-.footer a:hover {
-	color: white;
-	transition: .5s;
-	opacity: 1;
-}
-.backtotop {
-	text-align: right;
-}
